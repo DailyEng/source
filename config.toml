@@ -1,4 +1,4 @@
-baseurl = "DailyEng.github.io"
+baseurl = "https://DailyEng.github.io"
 title = "每日一句"
 theme = "hugo-nuo"
 languageCode = "zh-cn"
