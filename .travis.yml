@@ -8,7 +8,7 @@ git:
 install: 
   - sudo pip install Pygments
   - sudo pip install requests
-  - go get -v github.com/spf13/hugo
+  - go get -v github.com/gohugoio/hugo
 
 script:
   - hugo
