@@ -1,0 +1,101 @@
+baseurl = "localhost:1313"
+title = "每日一句"
+theme = "hugo-nuo"
+languageCode = "zh-cn"
+
+# Default language to use (if you setup multilingual support)
+defaultContentLanguage = "zh"
+defaultContentLanguageInSubdir = true
+
+[languages.zh]
+  languageCode = "zh-cn"
+
+enableRobotsTXT = true
+PygmentsCodeFences = true
+canonifyurls = true
+
+# Disqus Username
+disqusShortname = "disqus_shortname"
+
+# Google Analytics UA number
+googleAnalytics = "UA-XXXXXXXX-X"
+
+# Copyright of your post
+copyright = "©2018 每日一句 "
+
+# Initial site menu, you can extend menu with content.
+[[menu.main]]
+  name = "首页"
+  weight = 10
+  identifier = "home"
+  url = "/"
+
+#[[menu.main]]
+#  name = "Tags"
+#  weight = 30
+#  identifier = "tags"
+#  url = "/tags/"
+
+# Add your own params here
+[params]
+  author = "每日一句"
+  avatar = "/img/avatar.jpeg"
+  seotitle = "每日一句"
+  subtitle = "~ 每天分享一条英文励志短句 ~"
+  description = "英语学习网站，每天分享一条英文励志短句"
+  paginate = 10
+
+  # Choose your social networks
+  email = "name@domain.com"
+  # github = "github_username"
+  # twitter = "twitter_username"
+  # linkedin = "linkedin_username"
+  # weibo = "weibo_username"
+  # wechat= "/img/qrcode.jpg" # Replace with your wechat qrcode image
+  # facebook = "facebook_username"
+  # google = "googlplus_id_number"
+  # instagram = "instagram_username"
+  # youtube = "youtube_username"
+  # vimeo = "vimeo_username"
+  # medium = "medium_username"
+  # quora = "quora_username"
+  # pinterest = "pinterest_username"
+  # dribbble = "dribbble_username"
+  # behance = "behance_username"
+  # jsfiddle = "jsfiddle_username"
+  # codepen = "codepen_username"
+  # zhihu = "zhihu_username"
+  # douban = "douban_username"
+  # bilibili = "bilibili_id_number"
+
+  # Changyan Comments (China Only)
+  changyan = false
+  changyanId = ""
+  changyanConf = ""
+
+  # Google Webmaster
+  # https://www.google.com/webmasters/
+  googleSiteVerification = ""
+
+  # Bing Webmaster
+  # https://www.bing.com/toolbox/webmaster/
+  msValidate = ""
+
+  # Baidu Webmaster (China Only)
+  # https://zhanzhang.baidu.com/
+  # baiduSiteVerification = ""
+
+  # Sogou Webmaster (China Only)
+  # http://zhanzhang.sogou.com/
+  # sogouSiteVerification = ""
+
+  # 360 Webmaster (China Only)
+  # http://zhanzhang.so.com/
+  # soSiteVerification = ""
+
+  # Baidu Tongji (China Only)
+  # https://tongji.baidu.com/
+  # baiduTongji = ""
+
+  # ICP Number (China Only)
+  # ICP = ""
