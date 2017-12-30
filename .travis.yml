@@ -7,7 +7,7 @@ git:
 
 install: 
   - sudo pip install Pygments
-  - sudo pip install requests urllib
+  - sudo pip install requests
   - go get -v github.com/spf13/hugo
 
 script:
