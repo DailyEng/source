@@ -6,7 +6,7 @@ menu: "main"
 weight: 50
 ---
 
-![About](https://i.imgur.com/FKSie3f.jpg)
+![About](https://i.imgur.com/E9zT7lf.jpg)
 
 </br>
 
