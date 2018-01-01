@@ -26,7 +26,7 @@ jobs:
       # generate post
       - run:
           name: generate post
-          command: cd content/post/ && ls -lh && python generator.py
+          command: cd content/post/ && ls -lh && python generator.py && ls -lh
 
 workflows:
   version: 2
