@@ -22,6 +22,7 @@ jobs:
       - run:
           name: install dependencies
           command: sudo pip install requests
+      - run: cd content/post/
       - run: ls -lh
       
       # generate post
