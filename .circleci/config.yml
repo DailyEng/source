@@ -29,7 +29,7 @@ jobs:
           command: cd content/post/ && ls -lh && python generator.py && ls -lh
           
       # push to repo
-      -run:
+      - run:
           name: git push
           command: |
             git config user.name "CircleCI Bot"
