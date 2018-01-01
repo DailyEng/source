@@ -22,13 +22,11 @@ jobs:
       - run:
           name: install dependencies
           command: sudo pip install requests
-      - run: cd content/post/
-      - run: ls -lh
-      
+
       # generate post
       - run:
           name: generate post
-          command: python generator.py
+          command: cd content/post/ && ls -lh && python generator.py
 
 workflows:
   version: 2
