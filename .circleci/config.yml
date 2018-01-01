@@ -27,6 +27,16 @@ jobs:
       - run:
           name: generate post
           command: cd content/post/ && ls -lh && python generator.py && ls -lh
+          
+      # push to repo
+      -run:
+          name: git push
+          command: |
+            git config user.name "CircleCI Bot"
+            git config user.email "bot@circleci.com"
+            git add .
+            git commit -m "Update docs"
+            git push --force "https://${GITHUB_TOKEN}@github.com/DailyEng/source.git" master:master
 
 workflows:
   version: 2
