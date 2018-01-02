@@ -27,7 +27,12 @@ jobs:
       # generate post
       - run:
           name: generate post
-          command: cd content/post/ && ls -lh && python generator.py && ls -lh
+          command: |
+            date
+            cd content/post/
+            ls -lh
+            python generator.py
+            ls -lh
           
       # push to repo
       - run:
