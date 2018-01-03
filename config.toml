@@ -80,6 +80,10 @@ copyright = "©2018 每日一句 "
   # Bing Webmaster
   # https://www.bing.com/toolbox/webmaster/
   msValidate = "0BAC9F5F6E97D02F2A40773EE4722AA0"
+  
+  # Yandex Webmaster
+  # https://webmaster.yandex.com
+  yandexVerification = "c290811faea218a3"
 
   # Baidu Webmaster (China Only)
   # https://zhanzhang.baidu.com/
