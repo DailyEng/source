@@ -84,6 +84,10 @@ copyright = "©2018 每日一句 "
   # Yandex Webmaster
   # https://webmaster.yandex.com
   yandexVerification = "c290811faea218a3"
+  
+  # Naver Webmaster
+  # 
+  naverSiteVerification = "5e45e692b1e7bc1c68b182cc73b36b9b52dcd1d2"
 
   # Baidu Webmaster (China Only)
   # https://zhanzhang.baidu.com/
