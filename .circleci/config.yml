@@ -49,7 +49,7 @@ workflows:
   nightly:
     triggers:
       - schedule:
-          cron: "0 4 * * *"
+          cron: "0 17 * * *" # 1AM UTC +8
           filters:
             branches:
               only:
