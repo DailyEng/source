@@ -86,12 +86,12 @@ copyright = "©2018 每日一句 "
   yandexVerification = "c290811faea218a3"
   
   # Naver Webmaster
-  # 
+  # https://webmastertool.naver.com
   naverSiteVerification = "5e45e692b1e7bc1c68b182cc73b36b9b52dcd1d2"
 
   # Baidu Webmaster (China Only)
   # https://zhanzhang.baidu.com/
-  # baiduSiteVerification = ""
+  baiduSiteVerification = "9WGFVhoh79"
 
   # Sogou Webmaster (China Only)
   # http://zhanzhang.sogou.com/
