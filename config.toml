@@ -95,7 +95,7 @@ copyright = "©2018 每日一句 "
 
   # Sogou Webmaster (China Only)
   # http://zhanzhang.sogou.com/
-  # sogouSiteVerification = ""
+  sogouSiteVerification = "2a3ZyTyC4j"
 
   # 360 Webmaster (China Only)
   # http://zhanzhang.so.com/
