@@ -99,7 +99,7 @@ copyright = "©2018 每日一句英文 DailyEng "
 
   # 360 Webmaster (China Only)
   # http://zhanzhang.so.com/
-  # soSiteVerification = ""
+  soSiteVerification = "8da5855b2b954b1852535658f96c4611"
 
   # Baidu Tongji (China Only)
   # https://tongji.baidu.com/
